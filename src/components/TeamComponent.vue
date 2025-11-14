@@ -20,7 +20,7 @@ const teamMembers = [
     bio: "Gideon is our tech guru, leading the development team with innovative solutions and cutting-edge technology."
   },
   {
-    name: "Bonages Kwabena Bonfil",
+    name: "Bornege Kobina Bonfil",
     role: "CFO",
     photo: "jibril",
     bio: "Bonages manages our financial strategies ensuring sustainable growth and profitability."
