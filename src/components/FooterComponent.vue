@@ -34,15 +34,15 @@
               <p class="flex items-start gap-3">
                 <span class="font-semibold min-w-[80px]">Phone:</span>
                 <span>
-                  <a href="tel:+233501234567" class="hover:underline">+233 (0) 50 123 4567</a><br />
-                  <a href="tel:+233241234567" class="hover:underline">+233 (0) 24 123 4567</a>
+                  <a href="tel:+233501234567" class="hover:underline">+233 (0) 59 684 4242</a><br />
+                  <a href="tel:+233241234567" class="hover:underline">+233 (0) 54 050 1163</a>
                 </span>
               </p>
 
               <p class="flex items-start gap-3">
                 <span class="font-semibold min-w-[80px]">Email:</span>
                 <span>
-                  <a href="mailto:info@example.com" class="hover:underline">info@example.com</a>
+                  <a href="mailto:info@example.com" class="hover:underline">info@klumustechnologies.com</a>
                 </span>
               </p>
             </div>
