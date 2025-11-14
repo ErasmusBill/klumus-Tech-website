@@ -1,5 +1,5 @@
 <script setup>
-import { faCode, faMobileAlt, faCloud, faRobot } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faMobileAlt, faCloud, faRobot, faBullhorn } from '@fortawesome/free-solid-svg-icons'
 
 const services = [
   { 
@@ -21,6 +21,11 @@ const services = [
     name: "AI Solutions", 
     icon: faRobot,
     description: "Intelligent automation and machine learning"
+  },
+  { 
+    name: "Digital Marketing", 
+    icon: faBullhorn,
+    description: "SEO, social media, and comprehensive digital marketing strategies"
   }
 ]
 </script>
@@ -37,7 +42,7 @@ const services = [
     </div>
    
     <!-- Services Grid -->
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div 
         v-for="service in services" 
         :key="service.name" 
