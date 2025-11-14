@@ -1,5 +1,5 @@
 <script setup>
-import { faCode, faMobileAlt, faCloud, faRobot, faBullhorn } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faMobileAlt, faCloud, faRobot, faBullhorn, faPalette } from '@fortawesome/free-solid-svg-icons'
 
 const services = [
   { 
@@ -26,6 +26,11 @@ const services = [
     name: "Digital Marketing", 
     icon: faBullhorn,
     description: "SEO, social media, and comprehensive digital marketing strategies"
+  },
+  { 
+    name: "Graphic Design", 
+    icon: faPalette,
+    description: "Creative visual designs, branding, and digital artwork"
   }
 ]
 </script>

@@ -5,6 +5,7 @@ import gideon1 from '@/assets/gideon1.jpg'
 import khelly from '@/assets/khelly.jpg'
 import desmond3 from '@/assets/desmond3.JPG'
 import claudia from '@/assets/claudia.jpg'
+import nii from '@/assets/nii.png'
 
 const teamMembers = [
   {
@@ -12,6 +13,12 @@ const teamMembers = [
     role: "CEO/Software Engineer/Lead Developer",
     photo: "khelly",
     bio: "Erasmus is the visionary leader behind our company with years of experience in the tech industry. He is also the mastermind of our web development and AI projects."
+  },
+  {
+    name: "Claudia Bartels",
+    role: "Project Manager/HR",
+    photo: "claudia",
+    bio: "Claudia coordinates our projects, ensuring timely delivery and client satisfaction."
   },
   {
     name: "Gideon Amanor Tetteh",
@@ -26,21 +33,20 @@ const teamMembers = [
     bio: "Bonages manages our financial strategies ensuring sustainable growth and profitability."
   },
   {
-    name: "Claudia Bartels",
-    role: "Project Manager/HR",
-    photo: "claudia",
-    bio: "Claudia coordinates our projects, ensuring timely delivery and client satisfaction."
-  },
-  {
     name: "Desmond Bortey",
     role: "Lead Designer",
     photo: "desmond3",
     bio: "Desmond brings creativity to our team, crafting visually stunning designs that captivate our clients."
+  },{
+    name: "Nii Adjei John",
+    role: "Operations Manager",
+    photo: "nii",
+    bio: "Nii ensures our daily operations run smoothly, optimizing processes for maximum efficiency."
   }
 ]
 
 const getPhotoSrc = (photo) => {
-  const photoMap = { jibril, gideon1, khelly, claudia,desmond3 }
+  const photoMap = { jibril, gideon1, khelly, claudia,desmond3,nii }
   return photoMap[photo] || photo
 }
 </script>
