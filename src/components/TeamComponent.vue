@@ -35,7 +35,7 @@ const teamMembers = [
     name: "Desmond Bortey",
     role: "Lead Designer",
     photo: "desmond3",
-    bio: "Kelly brings creativity to our team, crafting visually stunning designs that captivate our clients."
+    bio: "Desmond brings creativity to our team, crafting visually stunning designs that captivate our clients."
   }
 ]
 
