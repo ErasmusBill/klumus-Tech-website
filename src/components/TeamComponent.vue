@@ -28,7 +28,7 @@ const teamMembers = [
   },
   {
     name: "Bornege Kobina Bonfil",
-    role: "CFO",
+    role: "HR/CFO",
     photo: "jibril",
     bio: "Bonages manages our financial strategies ensuring sustainable growth and profitability."
   },
